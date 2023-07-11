@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "music-converter"
+version = "0.1.0"
+description = ""
+authors = ["pparrott <philparrott8942@gmail.com>"]
+readme = "README.md"
+packages = [{include = "music_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
